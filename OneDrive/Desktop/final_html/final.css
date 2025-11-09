@@ -1,0 +1,113 @@
+/* General Page Styling */
+body {
+  background-color: #f8faff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4b8bbe;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: italic;
+  color: #e0f7ff;
+}
+
+section {
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Highlight text */
+.highlight {
+  color: crimson;
+  font-weight: bold;
+}
+
+/* Links & Images */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+img {
+  display: block;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th, td {
+  border: 1px solid #bbb;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #d7ebf9;
+  color: #333;
+}
+tr:nth-child(even) {
+  background-color: #f5faff;
+}
+
+/* Boxes (DIV) */
+.box {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  color: white;
+}
+.box1 {
+  background-color: #ffb366;
+}
+.box2 {
+  background-color: #66cc99;
+}
+.blue-text {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Iframe Section */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #4b8bbe;
+  border-radius: 10px;
+}
+
+/* Entities Paragraph */
+.entities {
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #4b8bbe;
+  color: white;
+  margin-top: 30px;
+}
